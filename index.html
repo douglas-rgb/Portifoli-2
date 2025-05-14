@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Informações básicas -->
+  <meta name="author" content="Douglas Tecch" />
+  <meta name="description" content="Portfólio profissional de Douglas Tecch, desenvolvedor web especializado em soluções criativas, modernas e funcionais para o mercado digital." />
+  <meta name="keywords" content="Douglas Tecch, portfólio, desenvolvedor web, web developer, HTML, CSS, JavaScript, React, sites profissionais" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Título e favicon -->
+  <title>Douglas Tecch - Desenvolvedor Web</title>
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" />
+
+  <!-- Google Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+      <!-- Archivos CSS -->
+   <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Douglas Tecch</div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle">🌙</button>
+    </header>
+
+    <!-- SECTION HOME -->
+    <section id="home" class="home-section">
+      <div class="circle">
+        <div class="circle-1"></div>
+        <div class="circle-1"></div>
+        <div class="circle-1"></div>
+        <div class="circle-1"></div>
+      </div>
+
+      <div class="home-content">
+        <div class="text-content">
+          <h1>Eu, <br>sou o <span>Douglas</span></h1>
+          <p>Desenvolvedor Web apaixonado por tecnologia, inovação e boas ideias
+            💡</p>
+          <a href="projeto/index.html" target="_blank" class="btn-destaque">Ver
+            Projetos</a>
+          <div class="sociais-icon">
+            <a href="https://www.linkedin.com/in/douglas-tecch-63375320a/"
+              target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/DouglasTecch" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/douglas_tecch/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/5511948102958" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+          </div>
+        </div>
+        <div class="image-content">
+          <img src="img/Logo.png" alt="Douglas Tecch" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION SOBRE -->
+    <section class="sobre" id="sobre">
+      <span>Sobre</span>
+      <div class="conteudo-sobre">
+        <div class="texto">
+          <h1>Sobre a Douglas Tecch</h1>
+          <p>A Douglas Tecch é uma empresa especializada em soluções digitais
+            inovadoras, focada no desenvolvimento de sites, aplicações web e
+            experiências personalizadas. Com paixão por tecnologia e compromisso
+            com a excelência, transformamos ideias em projetos reais que
+            impulsionam negócios e conectam pessoas. Nosso objetivo é criar
+            soluções inteligentes, modernas e de alto impacto para o mercado
+            digital.</p>
+
+        </div>
+        <div class="imagem">
+          <img src="img/Logo.png" alt="Douglas">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION HABILIDADES -->
+    <section class="habilidades-section" id="habilidades" >
+      <span>Habilidades</span>
+      <div class="conteudo-habilidades">
+        <div class="habilidade">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <p>Criação de estruturas semânticas para sites modernos e
+            acessíveis.</p>
+        </div>
+
+        <div class="habilidade">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <p>Estilização responsiva com foco em experiência do usuário e boas
+            práticas.</p>
+        </div>
+
+        <div class="habilidade">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Interatividade dinâmica para sites e aplicações web.</p>
+        </div>
+
+        <div class="habilidade">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <p>Desenvolvimento de interfaces modernas, componentes reutilizáveis e
+            SPA.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION SERVIÇOS -->
+    <section class="servicos" id="servicos" >
+      <span>Serviços</span>
+      <div class="conteudo-servicos">
+        <div class="servico">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Desenvolvimento Web</h3>
+          <p>Criação de sites modernos, responsivos e otimizados para todos os
+            dispositivos.</p>
+        </div>
+
+        <div class="servico">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Aplicações Web</h3>
+          <p>Desenvolvimento de sistemas e plataformas personalizadas para
+            empresas e startups.</p>
+        </div>
+
+        <div class="servico">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Soluções Personalizadas</h3>
+          <p>Transformamos ideias em projetos reais, criando experiências únicas
+            para o seu público.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTATO -->
+    <section class="contato-section" id="contato">
+      <span>Contato</span>
+      <div class="contato-container">
+        <h2>Entre em Contato</h2>
+        <p>Solicite um orçamento rápido e prático via WhatsApp</p>
+        <form id="form-contato">
+          <input type="text" id="nome" placeholder="Seu nome" required />
+          <input type="text" id="servico" placeholder="Qual serviço você precisa?" required />
+          <textarea id="mensagem" rows="4" placeholder="Descreva sua ideia ou necessidade..." required></textarea>
+          <button type="submit"><i class="fab fa-whatsapp"></i> Enviar via WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/douglas-tecch-63375320a/"
+            target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/DouglasTecch" target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/douglas_tecch/" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5511948102958" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <p>&copy; 2025 Douglas Tecch. Todos os direitos reservados.</p>
+        <p>Feito com 💖 por <span>Douglas Tecch</span></p>
+      </div>
+    </footer>
+     <!-- Botão Voltar ao Topo -->
+     <button class="btn-scroll-top" aria-label="Voltar ao topo" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
